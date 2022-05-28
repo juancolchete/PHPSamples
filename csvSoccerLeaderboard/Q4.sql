@@ -1,0 +1,1 @@
+SELECT * FROM times WHERE vitorias*3+empates = (SELECT max(vitorias*3+empates) FROM times)
